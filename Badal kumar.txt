@@ -1,0 +1,66 @@
+clothhub/
+├── index.html
+├── styles.css
+└── images/
+    └── [place product and banner images here]<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clothhub - Pants & Dresses</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">Clothhub</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <h1>Step into Style</h1>
+        <p>Discover Your Perfect Pants & Dresses!</p>
+        <a href="#products" class="cta">Browse Our Collection</a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>At Clothhub, we specialize in crafting stylish pants and dresses that blend comfort with quality. Whether it’s formal, casual, or party wear, our handpicked designs ensure you look your best on every occasion.</p>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products">
+        <h2>Our Products</h2>
+        <div class="product-category">
+            <h3>Pants</h3>
+            <p>Stylish trousers, chinos, and formal wear.</p>
+        </div>
+        <div class="product-category">
+            <h3>Dresses</h3>
+            <p>Elegant evening gowns, casual summer dresses, and party wear.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: <a href="mailto:contact@clothhub.com">contact@clothhub.com</a></p>
+        <p>Phone: +1-800-CLUBHUB</p>
+        <p>Address: [Your Store Address]</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Clothhub. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
